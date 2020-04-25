@@ -1,1 +1,29 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~@angular/material/theming';
+@include mat-core();
+
+@import './themes/commons/fonts.scss';
+
+@import './themes/default.scss';
+@import './themes/dark.scss';
+
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.theme {
+  width: 100%;
+  height: 100%;
+}
+
+.default-theme {
+  @include angular-material-theme($default-theme);
+}
+
+.dark-theme {
+  @include angular-material-theme($dark-theme);
+}

@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  title: 'Starter Template',
+  project: 'starter-template',
+  version: '1.0.0',
+  apiUrl: '/assets/data/',
 };
 
 /*

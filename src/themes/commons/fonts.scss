@@ -1,0 +1,30 @@
+$font-path: 'src/assets/fonts';
+$font-name: 'Montserrat';
+
+@font-face {
+  font-family: '#{$font-name}-Light';
+  src: url('#{$font-path}/#{$font-name}/#{$font-name}-Light.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$font-name}-Regular';
+  src: url('#{$font-path}/#{$font-name}/#{$font-name}-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$font-name}-Medium';
+  src: url('#{$font-path}/#{$font-name}/#{$font-name}-Medium.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$font-name}-Bold';
+  src: url('#{$font-path}/#{$font-name}/#{$font-name}-Bold.ttf') format('truetype');
+  font-style: normal;
+}
+
+$custom-typography: mat-typography-config($font-family: '#{$font-name}, monospace');
+
+@include mat-core($custom-typography);
