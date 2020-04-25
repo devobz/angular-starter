@@ -1,3 +1,22 @@
+# Get Started
+```
+git clone https://github.com/devaof/angular-starter your-project
+
+cd your-project
+
+yarn
+
+ng serve
+```
+
+# Started With
+- Animations
+- Themes
+- NGRX Store
+- Angular Material
+- Material Icon
+- Structural
+
 # Template
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
